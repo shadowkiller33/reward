@@ -1,0 +1,34 @@
+- sections: 
+  - local: index
+    title: TRL
+  - local: quickstart
+    title: Quickstart
+  - local: installation
+    title: Installation
+  - local: customization
+    title: Customize your training
+  - local: logging
+    title: Understanding logs
+  title: Get started
+- sections:
+  - local: models
+    title: Model Classes
+  - local: trainer
+    title: Trainer Classes
+  - local: reward_trainer
+    title: Training your own reward model
+  - local: sft_trainer
+    title: Supervised fine-tuning
+  title: API
+- sections: 
+  - local: sentiment_tuning
+    title: Sentiment Tuning
+  - local: lora_tuning_peft
+    title: Peft support - Low rank adaption of 8 bit models
+  - local: summarization_reward_tuning
+    title: Summarization Reward Tuning
+  - local: detoxifying_a_lm
+    title: Detoxifying a Language Model
+  - local: using_llama_models
+    title: Using LLaMA with TRL
+  title: Examples
